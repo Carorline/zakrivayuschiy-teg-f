@@ -272,23 +272,23 @@
   animation: sparks 0.3s 0.3s ease-in;
 }
 
-.like-icon.is-liked .core {
+.like-icon:not(.is-liked) .core {
   transition: fill 0.1s linear;
 }
 
-.like-icon.is-liked .main-body {
+.like-icon:not(.is-liked) .main-body {
   transition: fill 0.1s linear;
 }
 
-.like-icon.is-liked .contour {
+.like-icon:not(.is-liked) .contour {
   transition: fill 0.1s linear;
 }
 
-.like-icon.is-liked .heart {
+.like-icon:not(.is-liked) .heart {
   transition: fill 0.1s linear;
 }
 
-.like-icon.is-liked .sparks {
+.like-icon:not(.is-liked) .sparks {
   transition: fill 0.1s linear;
 }
 
