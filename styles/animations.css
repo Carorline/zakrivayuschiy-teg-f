@@ -29,14 +29,11 @@
   }
 }
 
-.like-icon .heart {
-  transform-origin: center;
-}
-
 .like-icon.is-liked .heart {
-  animation: heart 0.3s 0.1s ease-in;
+  transform-origin: center;
+  animation: heart 0.3s ease-in 0.1s 1;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s 0.3s ease-in;
+  animation: sparks 0.3s ease-in 0.3s 1;
 }
