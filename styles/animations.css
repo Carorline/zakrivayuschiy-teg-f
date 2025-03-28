@@ -29,9 +29,9 @@
   }
 }
 
-/* .like-icon .heart {
+.like-icon .heart {
   transform-origin: center;
-} */
+}
 
 .like-icon.is-liked .heart {
   animation: heart 0.3s 0.1s ease-in;
